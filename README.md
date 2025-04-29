@@ -1,3 +1,4 @@
+
 # Gesture Flashcards
 
 A modern flashcard application that combines spaced repetition learning with gesture controls for an interactive study experience.
@@ -9,7 +10,6 @@ Gesture Flashcards is a web application that helps users learn and memorize info
 ## Features
 
 ### Core Functionality
-
 - **Spaced Repetition**: Implements the Leitner system for efficient learning
 - **Gesture Controls**: Use hand gestures to interact with flashcards:
   - 👍 Thumbs Up: Mark card as "Easy"
@@ -19,7 +19,6 @@ Gesture Flashcards is a web application that helps users learn and memorize info
 - **Smart Scheduling**: Cards are presented based on your performance
 
 ### User Interface
-
 - **Interactive Flashcards**: Flip cards to reveal answers
 - **Progress Statistics**: Track your learning journey with detailed stats
 - **Category Support**: Organize cards by topics
@@ -37,7 +36,6 @@ Gesture Flashcards is a web application that helps users learn and memorize info
 ## Getting Started
 
 1. **Installation**
-
    ```bash
    # Clone the repository
    git clone <your-repo-url>
@@ -75,19 +73,35 @@ src/
 ## Core Components
 
 ### Flashcard System
-
 - Implements the Leitner spaced repetition system
 - Cards move between buckets based on user performance
 - Automatic scheduling of reviews
 
 ### Gesture Recognition
-
 - Real-time hand gesture detection
 - Camera feed processing with MediaPipe
 - Gesture classification and response system
 
 ### Progress Tracking
-
 - Detailed statistics on learning progress
 - Visual progress indicators
 - Bucket distribution analytics
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Built with [Lovable](https://lovable.dev)
+- Uses [MediaPipe](https://mediapipe.dev/) for gesture recognition
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+
